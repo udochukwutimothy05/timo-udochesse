@@ -1,0 +1,2 @@
+# Include files are loaded by PHP only, never opened from the browser
+Require all denied

@@ -1,0 +1,5 @@
+# Keep the admin panel out of Google and out of the browser cache
+<IfModule mod_headers.c>
+    Header set X-Robots-Tag "noindex, nofollow"
+    Header set Cache-Control "no-store, no-cache, must-revalidate"
+</IfModule>
